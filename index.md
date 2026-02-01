@@ -9,7 +9,7 @@ sidebar:
   <table style="width: 100%; border: none; background: transparent;">
     <tr style="background: transparent; border: none;">
      <td style="border: none !important; width: 60%; text-align: center;">
-  <h1 style="color: #2e4a62; font-family: 'Playfair Display', 'Garamond', 'Georgia', serif; font-size: 2.6em; font-weight: 500; line-height: 1.1; margin: 0; font-variant: small-caps; letter-spacing: 1px;">
+ <h1 style="color: #2e4a62; font-family: 'Garamond', serif; font-size: 2.6em; font-variant: small-caps; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); margin: 0;">
     Archives <br> Lieneson & Menet
   </h1>
 </td>
