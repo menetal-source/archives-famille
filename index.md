@@ -4,18 +4,26 @@ author_profile: false
 ---
 
 <style>
-  /* SUPPRESSION DES ÉLÉMENTS INDÉSIRABLES */
+  /* 1. SUPPRESSION DES ÉLÉMENTS INDÉSIRABLES */
   .skip-links, .page__title, .masthead, .page__footer, .breadcrumb { 
     display: none !important; 
   }
 
-  /* FOND ET MISE EN PAGE */
+  /* 2. FOND ET MISE EN PAGE */
   body, .page__inner-wrapper { 
     background-color: #e3f2fd !important; 
     padding-top: 0 !important;
   }
 
-  /* MENU DÉROULANT */
+  /* 3. TITRE ET BLASONS */
+  .mon-grand-titre {
+    color: #2e4a62 !important;
+    font-family: "Apple Chancery", "Savoye LET", cursive !important;
+    font-size: 3.2em !important;
+    margin: 0 !important;
+  }
+
+  /* 4. MENU DÉROULANT */
   .menu-container { display: flex; justify-content: center; margin: 20px 0; font-family: sans-serif; }
   .custom-menu { display: flex; list-style: none; background: #2e4a62; padding: 0; margin: 0; border-radius: 8px; }
   .custom-menu > li { position: relative; }
@@ -28,8 +36,15 @@ author_profile: false
   .submenu li a { color: white !important; padding: 10px 15px; display: block; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
 </style>
 
-<div style="text-align: center; background: white; padding: 30px; border-radius: 15px; max-width: 900px; margin: 20px auto; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-  <h1 style="color: #2e4a62; font-family: 'Apple Chancery', cursive; font-size: 3em; margin: 0;">Archives Lieneson & Menet</h1>
+<div style="height: 20px;"></div>
+
+<div style="display: flex; align-items: center; justify-content: center; background: white; padding: 30px; border-radius: 15px; border: 1px solid #d0e3f0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 950px; margin: 0 auto;">
+  <img src="assets/images/blason-gauche.png" style="width: 100px; height: auto; margin-right: 20px;" alt="Blason">
+  <div style="text-align: center;">
+    <h1 class="mon-grand-titre">Archives Lieneson & Menet</h1>
+    <p style="font-family: serif; font-style: italic; color: #5a7d9a; font-size: 1.3em; margin: 5px 0 0 0;">Mémoire et Patrimoine Familial</p>
+  </div>
+  <img src="assets/images/blason-droit.png" style="width: 100px; height: auto; margin-left: 20px;" alt="Blason">
 </div>
 
 <div class="menu-container">
@@ -55,19 +70,17 @@ author_profile: false
 </div>
 
 <div style="text-align: center;">
-  <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+  <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; height: auto; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);" alt="Photo d'accueil">
 </div>
 
 <div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.8; text-align: justify;">
-
   <h2 style="font-family: 'Apple Chancery', cursive; text-align: center; font-size: 2em;">Présentation du projet</h2>
-
-  <p> À travers ce portail, vous découvrirez une collection de photographies, de documents et d'objets qui retracent plusieurs générations d'histoire.</p>
+  
+  <p>À travers ce portail, vous découvrirez une collection de photographies, de documents et d'objets qui retracent plusieurs générations d'histoire.</p>
 
   <p>Réalisé dans le cadre d'une <strong>Licence professionnelle en documentation</strong>, ce site n'est pas seulement une galerie de souvenirs : c'est un outil de gestion documentaire structuré. Il utilise des technologies modernes comme <strong>Jekyll</strong> et des métadonnées en <strong>YAML</strong> pour garantir que ces archives restent accessibles, organisées et pérennes dans le temps.</p>
 
   <p style="text-align: center; font-style: italic; margin-top: 30px; border-top: 1px solid #d0e3f0; padding-top: 20px;">
     Explorez nos collections par ville ou par famille via le menu ci-dessus pour plonger dans mon patrimoine.
   </p>
-
 </div>
