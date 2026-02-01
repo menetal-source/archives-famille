@@ -6,16 +6,22 @@ sidebar:
 ---
 
 <style>
-  /* On force le bleu et l'affichage du menu */
+  /* On force le fond bleu ciel partout proprement */
   body, .masthead, .page, .page__inner-wrapper, #main, .sidebar {
     background-color: #e3f2fd !important;
   }
+  /* On cache les liens d'évitement "Skip to..." qui polluent le haut */
+  .skip-links {
+    display: none !important;
+  }
+  /* On s'assure que la sidebar est bien placée */
   .sidebar {
-    display: block !important;
+    background: transparent !important;
   }
 </style>
 
 <div style="background-color: #e3f2fd !important; padding: 40px 20px; border-radius: 15px; margin-bottom: 30px; border: 1px solid #d0e3f0; position: relative; min-height: 250px; display: flex; align-items: center; justify-content: center;">
+  
   <img src="assets/images/blason-gauche.png" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); width: 220px !important; height: auto !important; max-width: none !important; z-index: 10;">
 
   <div style="text-align: center; width: 100%; padding: 0 240px;">
