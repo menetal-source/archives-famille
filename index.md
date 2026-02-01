@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Archives de la Famille"
+title: "Archives de la famille Lieneson et Menet"
 permalink: /
 ---
 
