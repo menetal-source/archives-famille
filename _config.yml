@@ -16,3 +16,11 @@ defaults:
       layout: "single"
       sidebar:
         nav: "docs"
+        
+# Personnalisation de la couleur de fond
+minimal_mistakes_skin: "default"
+header:
+  overlay_color: "#e3f2fd" # Un bleu ciel très léger pour le haut
+
+# On ajoute un style direct pour le corps de la page
+remote_theme: mmistakes/minimal-mistakes@4.24.0
