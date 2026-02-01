@@ -2,12 +2,16 @@ docs:
   - title: "Famille Lieneson"
     children:
       - title: "Histoire"
-        url: #
+        url: "/"
       - title: "Documents"
-        url: #
+        url: "/"
   - title: "Famille Menet"
     children:
       - title: "Histoire"
-        url: #
+        url: "/"
       - title: "Documents"
-        url: #
+        url: "/"
+  - title: "Collection"
+    children:
+      - title: "Cartes Postales"
+        url: "/"
