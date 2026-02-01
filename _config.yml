@@ -1,10 +1,6 @@
-title: "Archives Lieneson et Menet"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
-
-# L'URL sans le slash final
 url: "https://menetal-source.github.io"
-# Le nom de ton dossier sur GitHub avec un slash devant uniquement
 baseurl: "/archives-famille"
 
 plugins:
