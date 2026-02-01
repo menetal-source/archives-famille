@@ -1,15 +1,11 @@
 title: "Archives Lieneson et Menet"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
-
 url: "https://menetal-source.github.io"
 baseurl: "/archives-famille"
-
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-
-# Cette partie est cruciale pour que le menu apparaisse partout
 defaults:
   - scope:
       path: ""
@@ -19,7 +15,3 @@ defaults:
       author_profile: true
       sidebar:
         nav: "docs"
-
-# Configuration de la barre latérale
-sidebar:
-  nav: "docs"
