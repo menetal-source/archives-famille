@@ -1,4 +1,5 @@
 title: "Archives de la Famille"
-baseurl: "/archives-famille"
+description: "Portail documentaire de mes archives iconographiques."
+baseurl: "/archives-famille" 
 url: "https://menetal-source.github.io"
 theme: minima
