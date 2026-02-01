@@ -3,17 +3,19 @@ layout: single
 author_profile: false
 ---
 
-  /* 1. SUPPRESSION DES PARASITES */
-  .skip-links, .masthead, #site-nav, .page__footer, .page__title, .breadcrumb {
+<style>
+  /* 1. SUPPRESSION DU TITRE ET DES PARASITES */
+  .page__title, .skip-links, .masthead, #site-nav, .page__footer, .breadcrumb {
     display: none !important;
   }
 
   /* 2. FOND ET MISE EN PAGE */
   body, .page__inner-wrapper {
     background-color: #e3f2fd !important;
+    padding-top: 0 !important;
   }
 
-  /* 3. POLICE ARRONDIE */
+  /* 3. POLICE ET TITRES */
   .mon-grand-titre {
     color: #2e4a62 !important;
     font-family: "Apple Chancery", "Savoye LET", cursive !important;
@@ -21,74 +23,33 @@ author_profile: false
     margin: 0 !important;
   }
 
-  /* 4. LE MENU HORIZONTAL AVEC SOUS-MENUS */
-  .menu-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
+  /* 4. MENU HORIZONTAL */
+  .menu-container { display: flex; justify-content: center; margin: 20px 0; }
+  ul.custom-menu { 
+    display: flex !important; 
+    background-color: #2e4a62; 
+    padding: 0; margin: 0; 
+    list-style: none !important; 
+    border-radius: 8px; 
   }
-
-  ul.custom-menu {
-    display: flex !important; /* Force l'alignement horizontal */
-    flex-direction: row;
-    background-color: #2e4a62;
-    padding: 0;
-    margin: 0;
-    list-style: none !important;
-    border-radius: 8px;
+  ul.custom-menu > li { position: relative; }
+  ul.custom-menu > li > a { 
+    color: white !important; 
+    text-decoration: none; 
+    padding: 15px 25px; 
+    display: block; 
+    font-weight: bold; 
   }
-
-  ul.custom-menu > li {
-    position: relative;
-    margin: 0;
+  ul.submenu { 
+    display: none; position: absolute; top: 100%; left: 0; 
+    background-color: #3e5f7a; min-width: 160px; 
+    list-style: none !important; padding: 0; z-index: 999; 
   }
-
-  ul.custom-menu > li > a {
-    color: white !important;
-    text-decoration: none;
-    padding: 15px 25px;
-    display: block;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 0.9em;
-  }
-
-  /* SOUS-MENU (Villes) */
-  ul.submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #3e5f7a;
-    min-width: 160px;
-    list-style: none !important;
-    padding: 0;
-    margin: 0;
-    border-radius: 0 0 8px 8px;
-    z-index: 999;
-  }
-
-  ul.submenu li a {
-    color: white !important;
-    padding: 10px 15px;
-    display: block;
-    text-decoration: none;
-    font-size: 0.85em;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-  }
-
-  /* AFFICHAGE AU SURVOL */
-  ul.custom-menu li:hover {
-    background-color: #3e5f7a;
-  }
-
-  ul.custom-menu li:hover ul.submenu {
-    display: block;
-  }
+  ul.custom-menu li:hover ul.submenu { display: block; }
+  ul.submenu li a { color: white !important; padding: 10px 15px; display: block; text-decoration: none; }
 </style>
 
-<div style="height: 40px;"></div>
-
+<div style="height: 20px;"></div>
 <div style="display: flex; align-items: center; justify-content: center; background: white; padding: 40px; border-radius: 15px; border: 1px solid #d0e3f0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 950px; margin: 0 auto;">
   <img src="assets/images/blason-gauche.png" style="width: 120px; height: auto; margin-right: 30px;">
   <div style="text-align: center;">
@@ -108,55 +69,21 @@ author_profile: false
       <ul class="submenu">
         <li><a href="/archives-famille/collection/lille/">Lille</a></li>
         <li><a href="/archives-famille/collection/reims/">Reims</a></li>
-        <li><a href="/archives-famille/collection/lyon/">Lyon</a></li>
         <li><a href="/archives-famille/collection/mordelles/">Mordelles</a></li>
       </ul>
     </li>
   </ul>
 </div>
 
----
-layout: single
-author_profile: false
----
-
-<style>
-  /* Cette ligne est le secret pour supprimer le titre "Portrait de Constantin" */
-  .page__title { display: none !important; }
-  
-  /* On nettoie aussi les marges inutiles en haut */
-  .page__inner-wrapper { padding-top: 0 !important; }
-  .archive { margin-top: 0 !important; }
-  
-  .bouton-accueil {
-    display: inline-block;
-    margin: 10px;
-    padding: 15px 30px;
-    background: #2e4a62;
-    color: white !important;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-  }
-</style>
-
-<div style="text-align: center; margin-top: 0;">
-  <img src="assets/images/VOTRE-NOUVELLE-PHOTO.jpg" style="max-width: 100%; height: auto; border-radius: 0 0 15px 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+<div style="text-align: center; margin-top: 20px;">
+  <img src="assets/images/constantin-1.jpg" style="max-width: 600px; height: auto; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
 </div>
 
-<div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif;">
+<div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.6;">
 
-  # Bienvenue sur mon site d'archives
-  
-  Ceci est votre texte de présentation que vous aviez dans le fichier README.
-  Vous pouvez raconter ici l'histoire de la collection...
+# Bienvenue sur mon site d'archives
 
-</div>
+C'est ici que tu colles ton texte de présentation. 
+Ce site regroupe les documents et photographies de notre histoire familiale...
 
-<div style="text-align: center; margin-bottom: 50px;">
-  <hr style="border: 1px solid #e3f2fd; width: 50%; margin: 30px auto;">
-  <h2 style="color: #2e4a62; font-family: 'Apple Chancery', cursive;">Explorer les collections</h2>
-  
-  <a href="collection/lille/" class="bouton-accueil">Ville de Lille</a>
-  <a href="collection/reims/" class="bouton-accueil">Ville de Reims</a>
 </div>
