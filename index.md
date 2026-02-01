@@ -7,8 +7,28 @@ sidebar:
 ---
 
 <style>
-  body, .masthead, .page, .page__content, .archive, .inner, .sidebar {
+  /* On peint le fond de la page et on force la transparence de tout le reste */
+  body {
     background-color: #e3f2fd !important;
+  }
+  
+  .masthead, 
+  .page, 
+  .page__inner-wrapper, 
+  .page__content, 
+  .sidebar, 
+  .archive, 
+  .inner,
+  .wrapper,
+  #main {
+    background-color: transparent !important;
+    background: transparent !important;
+    border: none !important;
+  }
+
+  /* Pour éviter les lignes blanches entre les sections */
+  .page__footer {
+    background-color: transparent !important;
   }
 </style>
 
