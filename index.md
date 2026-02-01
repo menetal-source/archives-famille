@@ -4,56 +4,85 @@ author_profile: false
 ---
 
 <style>
-  /* 1. SUPPRESSION DES LIENS PARASITES ET DU HAUT DE PAGE */
-  .skip-links, .masthead, #site-nav, .page__footer, .page__title, .breadcrumb {
-    display: none !important;
-  }
-
-  /* 2. COULEUR DE FOND ET MISE EN PAGE */
-  body, .page__inner-wrapper {
-    background-color: #e3f2fd !important;
-    margin: 0 !important;
-  }
-
-  /* 3. VOTRE BELLE POLICE ARRONDIE (STYLE CALLIGRAPHIE) */
-  .mon-grand-titre {
-    color: #2e4a62 !important;
-    /* On utilise les polices arrondies du Mac */
-    font-family: "Apple Chancery", "Savoye LET", "Dancing Script", cursive !important;
-    font-size: 3.5em !important;
-    font-weight: normal !important;
-    margin: 0 !important;
-    line-height: 1.2;
-  }
-
-  .mon-sous-titre {
-    font-family: "Apple Chancery", cursive, serif !important;
-    font-style: italic !important;
-    color: #5a7d9a !important;
-    margin: 10px 0 0 0 !important;
-    font-size: 1.5em !important;
-  }
-
-  /* 4. LE MENU BLEU */
+  /* --- AJUSTEMENT DU MENU POUR LES SOUS-MENUS --- */
   .custom-menu {
     display: flex;
     justify-content: center;
     background-color: #2e4a62;
-    padding: 12px;
+    padding: 0; /* On gère le padding dans les li */
     border-radius: 8px;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 950px;
     list-style: none;
   }
+
+  .custom-menu > li {
+    position: relative; /* Important pour placer le sous-menu */
+  }
+
   .custom-menu a {
     color: white !important;
     text-decoration: none;
-    margin: 0 15px;
+    padding: 15px 20px;
+    display: block;
     font-weight: bold;
     font-family: sans-serif;
     font-size: 0.9em;
   }
+
+  /* Style du sous-menu (caché par défaut) */
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Juste en dessous du parent */
+    left: 0;
+    background-color: #3e5f7a; /* Un bleu un peu différent */
+    min-width: 180px;
+    border-radius: 0 0 8px 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+
+  .submenu li {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .submenu a {
+    padding: 10px 15px;
+    font-size: 0.85em;
+    text-transform: none; /* Pas tout en majuscules pour les villes */
+  }
+
+  .submenu a:hover {
+    background-color: #2e4a62;
+  }
+
+  /* Affiche le sous-menu au survol de "COLLECTION" */
+  .custom-menu > li:hover .submenu {
+    display: block;
+  }
 </style>
+
+<nav>
+  <ul class="custom-menu">
+    <li><a href="/archives-famille/">ACCUEIL</a></li>
+    <li><a href="#">FAMILLE LIENESON</a></li>
+    <li><a href="#">FAMILLE MENET</a></li>
+    
+    <li>
+      <a href="#">COLLECTION ▾</a>
+      <ul class="submenu">
+        <li><a href="/archives-famille/collection/lille/">Lille</a></li>
+        <li><a href="/archives-famille/collection/reims/">Reims</a></li>
+        <li><a href="/archives-famille/collection/lyon/">Lyon</a></li>
+        <li><a href="/archives-famille/collection/mordelles/">Mordelles</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 <div style="height: 40px;"></div>
 
