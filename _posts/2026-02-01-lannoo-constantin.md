@@ -1,5 +1,6 @@
 
 ---
+![Portrait de Constantin Lannoo]({{ site.baseurl }}/assets/images/lannoo-constantin.png)
 # --- SECTION MÉTADONNÉES (FRONT MATTER) ---
 layout: post
 title: « Lannoo Constantin »
