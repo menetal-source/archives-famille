@@ -23,8 +23,9 @@ author_profile: false
     margin: 0 !important;
   }
 
-  /* 4. MENU HORIZONTAL */
+  /* 4. MENU HORIZONTAL ET DÉROULANT */
   .menu-container { display: flex; justify-content: center; margin: 20px 0; }
+  
   ul.custom-menu { 
     display: flex !important; 
     background-color: #2e4a62; 
@@ -32,24 +33,52 @@ author_profile: false
     list-style: none !important; 
     border-radius: 8px; 
   }
+  
   ul.custom-menu > li { position: relative; }
+  
   ul.custom-menu > li > a { 
     color: white !important; 
     text-decoration: none; 
     padding: 15px 25px; 
     display: block; 
-    font-weight: bold; 
+    font-weight: bold;
+    font-family: sans-serif;
   }
+
+  /* Configuration du sous-menu */
   ul.submenu { 
-    display: none; position: absolute; top: 100%; left: 0; 
-    background-color: #3e5f7a; min-width: 160px; 
-    list-style: none !important; padding: 0; z-index: 999; 
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background-color: #3e5f7a; 
+    min-width: 180px; 
+    list-style: none !important; 
+    padding: 0; 
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    z-index: 999; 
   }
-  ul.custom-menu li:hover ul.submenu { display: block; }
-  ul.submenu li a { color: white !important; padding: 10px 15px; display: block; text-decoration: none; }
+
+  /* Faire apparaître le sous-menu au survol */
+  ul.custom-menu li:hover ul.submenu { 
+    display: block !important; 
+  }
+
+  ul.submenu li a { 
+    color: white !important; 
+    padding: 12px 15px; 
+    display: block; 
+    text-decoration: none;
+    font-size: 0.9em;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  ul.submenu li:hover { background-color: #2e4a62; }
 </style>
 
 <div style="height: 20px;"></div>
+
 <div style="display: flex; align-items: center; justify-content: center; background: white; padding: 40px; border-radius: 15px; border: 1px solid #d0e3f0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 950px; margin: 0 auto;">
   <img src="assets/images/blason-gauche.png" style="width: 120px; height: auto; margin-right: 30px;">
   <div style="text-align: center;">
@@ -60,34 +89,4 @@ author_profile: false
 </div>
 
 <div class="menu-container">
-  <ul class="custom-menu">
-    <li><a href="/archives-famille/">ACCUEIL</a></li>
-    <li>
-  <a href="#">FAMILLE LIENESON ▾</a>
-  <ul class="submenu">
-    <li><a href="/archives-famille/famille/lieneson/">Galerie</a></li>
-    <li><a href="#">Documents</a></li>
-  </ul>
-</li>
-    <li><a href="#">FAMILLE MENET</a></li>
-    <li>
-      <a href="#">COLLECTION ▾</a>
-      <ul class="submenu">
-        <li><a href="/archives-famille/collection/lille/">Lille</a></li>
-        <li><a href="/archives-famille/collection/reims/">Reims</a></li>
-        <li><a href="/archives-famille/collection/mordelles/">Mordelles</a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
-
-<div style="text-align: center; margin-top: 20px;">
-  <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; height: auto; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
-</div>
-
-<div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.6;">
-
-Bienvenue sur mon site d'archives. 
-Ce projet est un portail documentaire d'archives familiales réalisé dans le cadre de ma formation (Licence professionnelle documentation). Il utilise Jekyll et des métadonnées structurées en YAML pour assurer l'interopérabilité des données.
-
-</div>
+  <ul class
