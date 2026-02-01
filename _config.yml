@@ -4,6 +4,11 @@ minimal_mistakes_skin: "default"
 url: "https://menetal-source.github.io"
 baseurl: "/archives-famille"
 
+# On force Jekyll à inclure les fichiers de style
+include: ["_pages", "_data"]
+sass:
+  style: :compressed
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
@@ -11,7 +16,7 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: pages
+      type: ""
     values:
       layout: "single"
       author_profile: true
