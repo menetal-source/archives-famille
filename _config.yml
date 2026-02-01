@@ -1,5 +1,23 @@
-title: Archives de la famille Lieneson et Menet
-description: Archives généalogiques
+title: "Archives Lieneson et Menet"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # Tu pourras changer la couleur plus tard (air, aqua, contrast...)
+
+# Paramètres de navigation
+paginate: 5
+repository: "menetal-source/archives-famille"
 baseurl: "/archives-famille"
 url: "https://menetal-source.github.io"
-theme: minima
+
+# Configuration de la barre latérale (Sidebar)
+sidebar:
+  nav: "docs"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "docs"
