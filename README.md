@@ -1,1 +1,1 @@
-"Ce projet est un portail documentaire d'archives familiales réalisé dans le cadre de ma formation (Licence professionnelle documentation). Il utilise Jekyll et des métadonnées structurées en YAML pour assurer l'interopérabilité des données."
+Ce projet est un portail documentaire d'archives familiales réalisé dans le cadre de ma formation (Licence professionnelle documentation). Il utilise Jekyll et des métadonnées structurées en YAML pour assurer l'interopérabilité des données.
