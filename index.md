@@ -1,17 +1,17 @@
 ---
 layout: page
-title: "Archives de la famille Lieneson et Menet"
+title: "Archives Lieneson et Menet"
 permalink: /
 ---
 
-## Bienvenue sur notre portail d'archives
+## 📂 Dossiers de Familles
+Cliquez sur un dossier pour voir les documents associés :
 
-Voici la pièce maîtresse de notre collection actuelle :
-
-### Portrait de Constantin Lannoo
-![Portrait de Constantin]({{ site.baseurl }}/assets/images/lannoo-constantin.png)
+* [📁 Famille LANNOO]({{ site.baseurl }}/categories/lannoo)
+* [📁 Famille LIENESON]({{ site.baseurl }}/categories/lieneson)
+* [📁 Famille MENET]({{ site.baseurl }}/categories/menet)
 
 ---
 
-### Liste des fiches détaillées
-* [Accéder à la fiche de Constantin Lannoo]({{ site.baseurl }}/2026/02/01/lannoo-constantin.html)
+## 🖼️ À la Une : Constantin Lannoo
+![Portrait de Constantin]({{ site.baseurl }}/assets/images/lannoo-constantin.png)
