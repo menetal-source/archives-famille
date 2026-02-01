@@ -4,46 +4,31 @@ author_profile: false
 ---
 
 <style>
-  /* 1. SUPPRESSION TOTALE DES SKIP LINKS ET DU TITRE */
+  /* SUPPRESSION DES ÉLÉMENTS INDÉSIRABLES */
   .skip-links, .page__title, .masthead, .page__footer, .breadcrumb { 
     display: none !important; 
   }
 
-  /* 2. NETTOYAGE DES MARGES HAUTES */
+  /* FOND ET MISE EN PAGE */
   body, .page__inner-wrapper { 
     background-color: #e3f2fd !important; 
     padding-top: 0 !important;
-    margin-top: 0 !important;
   }
 
-  /* 3. MENU ET SOUS-MENUS */
+  /* MENU DÉROULANT */
   .menu-container { display: flex; justify-content: center; margin: 20px 0; font-family: sans-serif; }
   .custom-menu { display: flex; list-style: none; background: #2e4a62; padding: 0; margin: 0; border-radius: 8px; }
   .custom-menu > li { position: relative; }
   .custom-menu > li > a { color: white !important; text-decoration: none; padding: 15px 25px; display: block; font-weight: bold; }
-
   .submenu { 
-    display: none; 
-    position: absolute; 
-    top: 100%; 
-    left: 0; 
-    background: #3e5f7a; 
-    min-width: 180px; 
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-    z-index: 999;
-    border-radius: 0 0 8px 8px;
+    display: none; position: absolute; top: 100%; left: 0; 
+    background: #3e5f7a; min-width: 180px; list-style: none; padding: 0; z-index: 999; border-radius: 0 0 8px 8px;
   }
-
   .custom-menu li:hover .submenu { display: block !important; }
   .submenu li a { color: white !important; padding: 10px 15px; display: block; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
-  .submenu li:hover { background: #2e4a62; }
 </style>
 
-<div style="height: 10px;"></div>
-
-<div style="text-align: center; background: white; padding: 30px; border-radius: 15px; max-width: 900px; margin: 0 auto; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+<div style="text-align: center; background: white; padding: 30px; border-radius: 15px; max-width: 900px; margin: 20px auto; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
   <h1 style="color: #2e4a62; font-family: 'Apple Chancery', cursive; font-size: 3em; margin: 0;">Archives Lieneson & Menet</h1>
 </div>
 
@@ -69,12 +54,20 @@ author_profile: false
   </ul>
 </div>
 
+<div style="text-align: center;">
+  <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+</div>
+
 <div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.8; text-align: justify;">
 
-  <h2 style="font-family: 'Apple Chancery', cursive; text-align: center;">Présentation du projet</h2>
+  <h2 style="font-family: 'Apple Chancery', cursive; text-align: center; font-size: 2em;">Présentation du projet</h2>
+
+  <p> À travers ce portail, vous découvrirez une collection de photographies, de documents et d'objets qui retracent plusieurs générations d'histoire.</p>
 
   <p>Réalisé dans le cadre d'une <strong>Licence professionnelle en documentation</strong>, ce site n'est pas seulement une galerie de souvenirs : c'est un outil de gestion documentaire structuré. Il utilise des technologies modernes comme <strong>Jekyll</strong> et des métadonnées en <strong>YAML</strong> pour garantir que ces archives restent accessibles, organisées et pérennes dans le temps.</p>
 
-  <p style="text-align: center; font-style: italic; margin-top: 20px;">Explorez nos collections par ville ou par famille via le menu ci-dessus pour plonger dans mon patrimoine.</p>
+  <p style="text-align: center; font-style: italic; margin-top: 30px; border-top: 1px solid #d0e3f0; padding-top: 20px;">
+    Explorez nos collections par ville ou par famille via le menu ci-dessus pour plonger dans mon patrimoine.
+  </p>
 
 </div>
