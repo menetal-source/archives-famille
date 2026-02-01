@@ -81,7 +81,7 @@ author_profile: false
 
 <div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.6;">
 
-# Bienvenue sur mon site d'archives
+Bienvenue sur mon site d'archives
 
 Ce projet est un portail documentaire d'archives familiales réalisé dans le cadre de ma formation (Licence professionnelle documentation). Il utilise Jekyll et des métadonnées structurées en YAML pour assurer l'interopérabilité des données.
 
