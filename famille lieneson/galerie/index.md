@@ -21,11 +21,11 @@ author_profile: false
 <h1 class="titre-ville">Collection : Galerie</h1>
 
 <div class="carrousel-cadre">
-  <div class="diapos-container" style="display:block;"><img src="../../assets/images/lannoo-constantin-place-1.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/images/lannoo-emma-place-2.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/images/lannoo-jeanne-place-3.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/images/lannoo-zoe-place-4.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/images/debryck-rosalie-place-5.jpg"></div>
+  <div class="diapos-container" style="display:block;"><img src="../../assets/images/lannoo-constantin-place-1.png"></div>
+  <div class="diapos-container"><img src="../../assets/images/lannoo-emma-place-2.png"></div>
+  <div class="diapos-container"><img src="../../assets/images/lannoo-jeanne-place-3.png"></div>
+  <div class="diapos-container"><img src="../../assets/images/lannoo-zoe-place-4.png"></div>
+  <div class="diapos-container"><img src="../../assets/images/debryck-rosalie-place-5.png"></div>
 
   <div class="navigation-boutons">
     <button class="btn-nav" onclick="var s=document.getElementsByClassName('diapos-container'); s[window.idx-1].style.display='none'; window.idx--; if(window.idx<1)window.idx=s.length; s[window.idx-1].style.display='block'; document.getElementById('compteur').innerHTML=window.idx;">❮ Précédent</button>
