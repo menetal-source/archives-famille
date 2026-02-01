@@ -47,7 +47,7 @@ author_profile: false
 
   <div class="navigation-boutons">
     <button class="btn-nav" onclick="var s=document.getElementsByClassName('diapos-container'); s[window.idx-1].style.display='none'; window.idx--; if(window.idx<1)window.idx=s.length; s[window.idx-1].style.display='block'; document.getElementById('compteur').innerHTML=window.idx;">❮ Précédent</button>
-    <span style="color:#2e4a62; font-family:sans-serif; font-weight:bold;"><span id="compteur">1</span> / 11</span>
+    <span style="color:#2e4a62; font-family:sans-serif; font-weight:bold;"><span id="compteur">1</span> / 23</span>
     <button class="btn-nav" onclick="var s=document.getElementsByClassName('diapos-container'); s[window.idx-1].style.display='none'; window.idx++; if(window.idx>s.length)window.idx=1; s[window.idx-1].style.display='block'; document.getElementById('compteur').innerHTML=window.idx;">Suivant ❯</button>
   </div>
 </div>
