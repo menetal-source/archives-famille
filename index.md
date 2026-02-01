@@ -6,6 +6,15 @@ sidebar:
   nav: "docs"
 ---
 
+<style>
+  body {
+    background-color: #e3f2fd !important; /* Couleur bleu ciel pastel */
+  }
+  .page__content, .sidebar {
+    background-color: #e3f2fd !important;
+  }
+</style>
+
 Bienvenue sur le portail des archives familiales. Utilisez le menu à gauche pour naviguer dans les dossiers de la famille.
 
 ---
