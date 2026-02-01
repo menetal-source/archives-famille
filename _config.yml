@@ -12,3 +12,6 @@ defaults:
       layout: "single"
       sidebar:
         nav: "docs" # Nom du menu dans _data/navigation.yml
+        author:
+  name: "Famille L&M"
+  bio: "Portail généalogique"
