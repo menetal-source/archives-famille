@@ -1,11 +1,15 @@
 title: "Archives Lieneson et Menet"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
+
+# Vérifie bien que le nom après le slash est EXACTEMENT le nom de ton dépôt GitHub
 url: "https://menetal-source.github.io"
 baseurl: "/archives-famille"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+
 defaults:
   - scope:
       path: ""
