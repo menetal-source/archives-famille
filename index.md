@@ -1,21 +1,16 @@
 ---
 layout: single
 author_profile: true
-title: " "
 sidebar:
   nav: "docs"
 ---
 
 <style>
-  /* On s'assure que la barre latérale est bien visible et colorée */
+  body, .masthead, .page, .page__inner-wrapper, #main, .sidebar {
+    background-color: #e3f2fd !important;
+  }
   .sidebar {
     display: block !important;
-    background-color: transparent !important;
-  }
-  
-  /* On force le fond bleu ciel sur toute la page à nouveau au cas où */
-  body, .masthead, .page, .page__inner-wrapper, #main {
-    background-color: #e3f2fd !important;
   }
 </style>
 
