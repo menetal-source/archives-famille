@@ -1,19 +1,12 @@
-
 ---
-![Portrait de Constantin Lannoo]({{ site.baseurl }}/assets/images/lannoo-constantin.png)
-# --- SECTION MÉTADONNÉES (FRONT MATTER) ---
 layout: post
-title: « Lannoo Constantin »
-identifiant: « ARBRE-FAM-001"
-date_document: « Inconnue »
-lieu: « Nord »
-typologie: "Photographie"
-
-# Indexation (très important pour le côté documentaire !)
-tags:
-  - Famille maternelle 
-  - Nord 
-
-# Lien vers l'image
-image: "/Users/alexandramenet/Documents/Projet site archives familiales/_posts/assetsimages:lannoo-constantin.png»
+title: "Portrait de Constantin Lannoo"
+date: 2026-02-01
+image: assets/images/lannoo-constantin.png
 ---
+
+### Description du document
+Fiche de Constantin Lannoo.
+
+### Document
+![Portrait de Constantin Lannoo]({{ site.baseurl }}/assets/images/lannoo-constantin.png)
