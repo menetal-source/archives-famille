@@ -6,6 +6,12 @@ sidebar:
   nav: "docs"
 ---
 
+<style>
+  body, .masthead, .page, .page__content, .archive, .inner, .sidebar {
+    background-color: #e3f2fd !important;
+  }
+</style>
+
 <div style="background-color: #e3f2fd !important; padding: 40px 20px; border-radius: 15px; margin-bottom: 30px; border: 1px solid #d0e3f0; position: relative; min-height: 250px; display: flex; align-items: center; justify-content: center;">
 
   <img src="assets/images/blason-gauche.png" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); width: 220px !important; height: auto !important; max-width: none !important; z-index: 10;">
@@ -22,7 +28,7 @@ sidebar:
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <p style="font-family: serif; font-size: 1.1em;">Bienvenue sur le portail des archives familiales. Utilisez le menu à gauche pour naviguer.</p>
+  <p style="font-family: serif; font-size: 1.2em; color: #2e4a62;">Bienvenue sur le portail des archives familiales. Utilisez le menu à gauche pour naviguer.</p>
   <br>
   <h2 style="color: #2e4a62; font-family: 'Apple Chancery', cursive; font-size: 2.2em;">Portrait de Constantin Lannoo</h2>
   <img src="assets/images/lannoo-constantin.png" style="width: 100%; max-width: 450px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); border: 8px solid white;">
