@@ -6,7 +6,8 @@ sidebar:
 ---
 
 <style>
-  body, .masthead, .page, .page__inner-wrapper, #main, .sidebar {
+  /* On force le fond bleu ciel et on affiche la sidebar */
+  body, .masthead, .page, .page__inner-wrapper, #main, .sidebar, .archive__item {
     background-color: #e3f2fd !important;
   }
   .sidebar {
