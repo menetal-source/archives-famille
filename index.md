@@ -4,11 +4,11 @@ author_profile: false
 ---
 
 <style>
-  /* 1. NETTOYAGE DES ÉLÉMENTS DU THÈME */
+  /* 1. SUPPRESSION DES ÉLÉMENTS INDÉSIRABLES */
   .skip-links, .masthead, .page__footer, .page__title, .breadcrumb { display: none !important; }
   body, .page__inner-wrapper { background-color: #e3f2fd !important; padding: 0 !important; }
 
-  /* 2. STYLE DU TITRE */
+  /* 2. STYLE DU TITRE ET BLASONS */
   .mon-grand-titre { 
     color: #2e4a62 !important; 
     font-family: cursive, serif !important; 
@@ -16,7 +16,7 @@ author_profile: false
     margin: 0 !important; 
   }
 
-  /* 3. STYLE DU MENU */
+  /* 3. MENU DÉROULANT */
   .menu-container { display: flex; justify-content: center; margin: 25px 0; font-family: sans-serif; position: relative; z-index: 1000; }
   .custom-menu { display: flex; list-style: none !important; background: #2e4a62; padding: 0; margin: 0; border-radius: 8px; }
   .custom-menu > li { position: relative; }
@@ -31,12 +31,12 @@ author_profile: false
 </style>
 
 <div style="display: flex; align-items: center; justify-content: center; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 1100px; margin: 20px auto;">
-  <img src="assets/images/blason-gauche.png" style="width: 200px; height: auto;" alt="Blason Lieneson">
+  <img src="assets/images/blason-gauche.png" style="width: 220px; height: auto;" alt="Blason Gauche">
   <div style="text-align: center; padding: 0 30px;">
     <h1 class="mon-grand-titre">Archives Lieneson & Menet</h1>
     <p style="font-style: italic; color: #5a7d9a; font-size: 1.2em;">Mémoire et Patrimoine Familial</p>
   </div>
-  <img src="assets/images/blason-droit.png" style="width: 200px; height: auto;" alt="Blason Menet">
+  <img src="assets/images/blason-droit.png" style="width: 220px; height: auto;" alt="Blason Droit">
 </div>
 
 <div class="menu-container">
@@ -72,7 +72,7 @@ author_profile: false
 </div>
 
 <div style="text-align: center; margin-bottom: 40px;">
-  <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);" alt="Photo d'accueil">
+  <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);" alt="Photo accueil">
 </div>
 
 <div style="max-width: 850px; margin: 0 auto 50px auto; color: #2e4a62; font-family: sans-serif; line-height: 1.8; text-align: justify; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
@@ -81,4 +81,8 @@ author_profile: false
   <p>Ce projet est né de la volonté de préserver et de transmettre la mémoire des familles <strong>Lieneson</strong> et <strong>Menet</strong>. À travers ce portail, vous découvrirez une collection de photographies, de documents et d'objets qui retracent plusieurs générations d'histoire.</p>
 
   <p>Réalisé dans le cadre d'une <strong>Licence professionnelle en documentation</strong>, ce site n'est pas seulement une galerie de souvenirs : c'est un outil de gestion documentaire structuré. Il utilise des technologies modernes comme <strong>Jekyll</strong> et des métadonnées en <strong>YAML</strong> pour garantir que ces archives restent accessibles, organisées et pérennes dans le temps.</p>
+
+  <p style="text-align: center; font-style: italic; margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">
+    Explorez nos collections par ville ou par famille via le menu ci-dessus pour plonger dans notre patrimoine commun.
+  </p>
 </div>
