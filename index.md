@@ -4,9 +4,9 @@ author_profile: false
 ---
 
 <style>
-  /* 1. NETTOYAGE */
+  /* 1. SUPPRESSION RADICALE DES ÉLÉMENTS DU THÈME */
   .skip-links, .masthead, .page__footer, .page__title, .breadcrumb { display: none !important; }
-  body, .page__inner-wrapper { background-color: #e3f2fd !important; padding: 0 !important; }
+  body, .page__inner-wrapper { background-color: #e3f2fd !important; padding: 0 !important; margin: 0 !important; overflow-x: hidden; }
 
   /* 2. STYLE DU TITRE ET BLASONS */
   .mon-grand-titre { color: #2e4a62 !important; font-family: cursive, serif !important; font-size: 3.2em !important; margin: 0 !important; }
@@ -24,18 +24,17 @@ author_profile: false
   .custom-menu li:hover .submenu { display: block !important; }
   .submenu li a { color: white !important; padding: 10px 15px; display: block; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
 
-  /* 4. PIED DE PAGE */
-  .mon-footer {
-    text-align: center;
-    margin: 60px auto 30px auto;
-    padding: 30px 20px;
-    color: #5a7d9a;
-    font-family: sans-serif;
-    font-size: 0.95em;
+  /* 4. PIED DE PAGE (FOOTER) FORCÉ */
+  .mon-footer-container {
+    width: 100%;
+    background-color: transparent;
+    padding: 40px 0;
+    margin-top: 50px;
     border-top: 1px solid #d0e3f0;
-    max-width: 850px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #5a7d9a;
   }
-  .mon-footer strong { color: #2e4a62; }
 </style>
 
 <div style="display: flex; align-items: center; justify-content: center; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 1100px; margin: 20px auto;">
@@ -86,8 +85,8 @@ author_profile: false
   <p>Réalisé dans le cadre d'une <strong>Licence professionnelle en documentation</strong>, ce site n'est pas seulement une galerie de souvenirs : c'est un outil de gestion documentaire structuré. Il utilise des technologies modernes comme <strong>Jekyll</strong> et des métadonnées en <strong>YAML</strong> pour garantir que ces archives restent accessibles, organisées et pérennes dans le temps.</p>
 </div>
 
-<footer class="mon-footer">
-  <p>© 2026 - <strong>Archives Familiales Lieneson & Menet</strong></p>
-  <p>Site conçu et réalisé par <strong>Alexandra Menet</strong></p>
+<div class="mon-footer-container">
+  <p style="margin: 5px 0;">© 2026 - <strong>Archives Familiales Lieneson & Menet</strong></p>
+  <p style="margin: 5px 0;">Site conçu et réalisé par <strong>Alexandra Menet</strong></p>
   <p style="font-size: 0.85em; margin-top: 10px;">Projet de Licence Professionnelle en Documentation</p>
-</footer>
+</div>
