@@ -7,28 +7,15 @@ sidebar:
 ---
 
 <style>
-  /* On peint le fond de la page et on force la transparence de tout le reste */
-  body {
-    background-color: #e3f2fd !important;
+  /* On s'assure que la barre latérale est bien visible et colorée */
+  .sidebar {
+    display: block !important;
+    background-color: transparent !important;
   }
   
-  .masthead, 
-  .page, 
-  .page__inner-wrapper, 
-  .page__content, 
-  .sidebar, 
-  .archive, 
-  .inner,
-  .wrapper,
-  #main {
-    background-color: transparent !important;
-    background: transparent !important;
-    border: none !important;
-  }
-
-  /* Pour éviter les lignes blanches entre les sections */
-  .page__footer {
-    background-color: transparent !important;
+  /* On force le fond bleu ciel sur toute la page à nouveau au cas où */
+  body, .masthead, .page, .page__inner-wrapper, #main {
+    background-color: #e3f2fd !important;
   }
 </style>
 
