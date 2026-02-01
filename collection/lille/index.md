@@ -7,7 +7,7 @@ author_profile: false
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 <style>
-  /* 1. NETTOYAGE HABITUEL */
+  /* 1. NETTOYAGE */
   .skip-links, .masthead, #site-nav, .page__footer, .page__title, .breadcrumb {
     display: none !important;
   }
@@ -21,9 +21,9 @@ author_profile: false
     margin: 40px 0 !important;
   }
 
-  /* 2. STYLE DU CARROUSEL */
+  /* 2. CARROUSEL SANS LÉGENDE */
   .carousel-container {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
     background: white;
     padding: 20px;
@@ -35,21 +35,13 @@ author_profile: false
     width: 100%;
     height: auto;
     border-radius: 8px;
+    display: block;
   }
 
-  /* Style des flèches */
+  /* Style des flèches de navigation */
   .slick-prev:before, .slick-next:before {
     color: #2e4a62 !important;
     font-size: 30px;
-  }
-  
-  .legende-carrousel {
-    text-align: center;
-    font-family: serif;
-    font-style: italic;
-    color: #5a7d9a;
-    margin-top: 15px;
-    font-size: 1.2em;
   }
 
   .bouton-retour {
@@ -60,6 +52,7 @@ author_profile: false
     color: white !important;
     text-decoration: none;
     border-radius: 5px;
+    font-family: sans-serif;
   }
 </style>
 
@@ -71,26 +64,17 @@ author_profile: false
 
 <div class="carousel-container">
   <div class="mon-carrousel">
-    <div>
-      <img src="../../assets/images/lille.jpg">
-      <p class="legende-carrousel">Légende de la photo 1</p>
-    </div>
-    <div>
-      <img src="../../assets/images/lille2.jpg">
-      <p class="legende-carrousel">Légende de la photo 2</p>
-    </div>
-    <div>
-      <img src="../../assets/images/lille3.jpg">
-      <p class="legende-carrousel">Légende de la photo 3</p>
-    </div>
-    <div><img src="../../assets/images/lille4.jpg"><p class="legende-carrousel">Photo 4</p></div>
-    <div><img src="../../assets/images/lille5.jpg"><p class="legende-carrousel">Photo 5</p></div>
-    <div><img src="../../assets/images/lille6.jpg"><p class="legende-carrousel">Photo 6</p></div>
-    <div><img src="../../assets/images/lille7.jpg"><p class="legende-carrousel">Photo 7</p></div>
-    <div><img src="../../assets/images/lille8.jpg"><p class="legende-carrousel">Photo 8</p></div>
-    <div><img src="../../assets/images/lille9.jpg"><p class="legende-carrousel">Photo 9</p></div>
-    <div><img src="../../assets/images/lille10.jpg"><p class="legende-carrousel">Photo 10</p></div>
-    <div><img src="../../assets/images/lille11.jpg"><p class="legende-carrousel">Photo 11</p></div>
+    <div><img src="../../assets/images/lille.jpg"></div>
+    <div><img src="../../assets/images/lille2.jpg"></div>
+    <div><img src="../../assets/images/lille3.jpg"></div>
+    <div><img src="../../assets/images/lille4.jpg"></div>
+    <div><img src="../../assets/images/lille5.jpg"></div>
+    <div><img src="../../assets/images/lille6.jpg"></div>
+    <div><img src="../../assets/images/lille7.jpg"></div>
+    <div><img src="../../assets/images/lille8.jpg"></div>
+    <div><img src="../../assets/images/lille9.jpg"></div>
+    <div><img src="../../assets/images/lille10.jpg"></div>
+    <div><img src="../../assets/images/lille11.jpg"></div>
   </div>
 </div>
 
@@ -100,10 +84,10 @@ author_profile: false
 <script type="text/javascript">
   $(document).ready(function(){
     $('.mon-carrousel').slick({
-      dots: true,         // Petits points en dessous
-      infinite: true,     // Tourne en boucle
-      speed: 500,         // Vitesse de transition
-      fade: true,         // Effet de fondu (plus élégant pour des archives)
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
       cssEase: 'linear',
       adaptiveHeight: true
     });
