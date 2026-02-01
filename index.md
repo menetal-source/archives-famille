@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: true
+classes: wide
 sidebar:
   nav: "docs"
 ---
