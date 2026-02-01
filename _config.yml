@@ -20,8 +20,10 @@ plugins:
 defaults:
   - scope:
       path: ""
+      type: pages
     values:
-      layout: "single"
+      layout: single
+      author_profile: true
       sidebar:
         nav: "docs"
         
@@ -32,3 +34,5 @@ header:
 
 # On ajoute un style direct pour le corps de la page
 remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+
