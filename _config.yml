@@ -1,14 +1,17 @@
 title: "Archives Lieneson et Menet"
+# On supprime la ligne theme: minima si elle existe encore
+theme: null
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
+
 baseurl: "/archives-famille"
 url: "https://menetal-source.github.io"
 
-# On force le moteur à utiliser le menu à gauche
+include: ["_pages", "_data"]
+
 defaults:
   - scope:
       path: ""
     values:
       layout: "single"
       sidebar:
-        nav: "docs" # Ceci pointe vers ton fichier _data/navigation.yml
+        nav: "docs"
