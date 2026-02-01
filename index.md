@@ -8,15 +8,11 @@ sidebar:
 <div style="text-align: center; margin-bottom: 30px;">
   <table style="width: 100%; border: none; background: transparent;">
     <tr style="background: transparent; border: none;">
-      <td style="width: 20%; border: none; text-align: center;">
-        <img src="assets/images/blason-gauche.png" style="width: 100px;">
-      </td>
-      <td style="width: 60%; border: none; text-align: center;">
-        <h1 style="color: #2e4a62; font-size: 2.2em; margin: 0;">ARCHIVES<br>LIENESON & MENET</h1>
-      </td>
-      <td style="width: 20%; border: none; text-align: center;">
-        <img src="assets/images/blason-droit.png" style="width: 100px;">
-      </td>
+     <td style="border: none !important; width: 60%; text-align: center;">
+  <h1 style="color: #2e4a62; font-family: 'Playfair Display', 'Garamond', 'Georgia', serif; font-size: 2.6em; font-weight: 500; line-height: 1.1; margin: 0; font-variant: small-caps; letter-spacing: 1px;">
+    Archives <br> Lieneson & Menet
+  </h1>
+</td>
     </tr>
   </table>
 </div>
