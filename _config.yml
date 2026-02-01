@@ -1,24 +1,8 @@
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
-
-url: "https://menetal-source.github.io"
-baseurl: "/archives-famille"
-
-# On force Jekyll à inclure les fichiers de style
-include: ["_pages", "_data"]
-sass:
-  style: :compressed
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
 defaults:
   - scope:
       path: ""
-      type: ""
+      type: pages
     values:
       layout: "single"
-      author_profile: true
-      sidebar:
-        nav: "docs"
+      author_profile: false    # On enlève le profil à gauche qui prend de la place
+      sidebar: []             # On vide la sidebar pour laisser toute la largeur
