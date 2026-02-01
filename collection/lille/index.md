@@ -11,6 +11,7 @@ author_profile: false
   .skip-links, .masthead, #site-nav, .page__footer, .page__title, .breadcrumb { display: none !important; }
   body, .page__inner-wrapper { background-color: #e3f2fd !important; }
 
+  /* 2. TITRE */
   .titre-ville {
     color: #2e4a62 !important;
     font-family: "Apple Chancery", "Savoye LET", cursive !important;
@@ -19,118 +20,76 @@ author_profile: false
     margin: 40px 0 !important;
   }
 
-  /* 2. IMAGE D'ACCUEIL (Taille moyenne) */
-  .image-principale-container {
-    text-align: center;
-    margin-bottom: 30px;
+  /* 3. LE CARROUSEL (Taille moyenne par défaut) */
+  .carousel-container {
+    max-width: 600px; /* Taille moyenne comme demandé */
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   }
 
-  .image-moyenne {
+  .mon-carrousel img {
     width: 100%;
-    max-width: 500px;
     height: auto;
-    border-radius: 10px;
-    border: 10px solid white;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: block;
   }
 
-  /* 3. LE BOUTON */
-  .bouton-album {
+  /* Cache les textes parasites */
+  .mon-carrousel p, .mon-carrousel span { display: none !important; }
+
+  /* Flèches */
+  .slick-prev:before, .slick-next:before { color: #2e4a62 !important; font-size: 30px; }
+  
+  .bouton-retour {
     display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
     background-color: #2e4a62;
     color: white !important;
-    padding: 12px 25px;
-    border-radius: 30px;
     text-decoration: none;
-    font-weight: bold;
+    border-radius: 5px;
     font-family: sans-serif;
-    cursor: pointer;
-    border: none;
-    transition: background 0.3s;
   }
-  .bouton-album:hover { background-color: #3e5f7a; }
-
-  /* 4. LA FENÊTRE CACHÉE (MODAL) */
-  #album-modal {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(0,0,0,0.9);
-  }
-
-  .modal-content {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-  }
-
-  .close-modal {
-    position: absolute;
-    top: -40px;
-    right: 10px;
-    color: white;
-    font-size: 40px;
-    cursor: pointer;
-  }
-
-  /* On cache tout texte qui pourrait apparaître sous les photos */
-  .slick-slide p, .slick-slide span { display: none !important; }
 </style>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="/archives-famille/" style="text-decoration: none; color: #2e4a62; font-weight: bold;">← Accueil</a>
+  <a href="/archives-famille/" class="bouton-retour">← Retour à l'accueil</a>
 </div>
 
 <h1 class="titre-ville">Collection : Lille</h1>
 
-<div class="image-principale-container">
-  <img src="../../assets/images/lille-place-1.jpg" class="image-moyenne">
-  <br><br>
-  <button class="bouton-album" onclick="ouvrirAlbum()">Voir les 11 photos</button>
-</div>
-
-<div id="album-modal">
-  <div class="modal-content">
-    <span class="close-modal" onclick="fermerAlbum()">&times;</span>
-    <div class="mon-carrousel">
-      <div><img src="../../assets/images/lille.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille2.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille3.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille4.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille5.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille6.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille7.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille8.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille9.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille10.jpg" style="width:100%"></div>
-      <div><img src="../../assets/images/lille11.jpg" style="width:100%"></div>
-    </div>
+<div class="carousel-container">
+  <div class="mon-carrousel">
+    <div><img src="../../assets/images/lille.jpg"></div>
+    <div><img src="../../assets/images/lille2.jpg"></div>
+    <div><img src="../../assets/images/lille3.jpg"></div>
+    <div><img src="../../assets/images/lille4.jpg"></div>
+    <div><img src="../../assets/images/lille5.jpg"></div>
+    <div><img src="../../assets/images/lille6.jpg"></div>
+    <div><img src="../../assets/images/lille7.jpg"></div>
+    <div><img src="../../assets/images/lille8.jpg"></div>
+    <div><img src="../../assets/images/lille9.jpg"></div>
+    <div><img src="../../assets/images/lille10.jpg"></div>
+    <div><img src="../../assets/images/lille11.jpg"></div>
   </div>
 </div>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<script type="text/javascript">
-  function ouvrirAlbum() {
-    document.getElementById('album-modal').style.display = "block";
-    // On initialise le carrousel seulement à l'ouverture pour éviter les bugs
+<script>
+  $(document).ready(function(){
     $('.mon-carrousel').slick({
       dots: true,
       infinite: true,
-      speed: 400,
+      speed: 500,
       fade: true,
-      cssEase: 'linear'
+      cssEase: 'linear',
+      adaptiveHeight: true,
+      arrows: true
     });
-  }
-
-  function fermerAlbum() {
-    document.getElementById('album-modal').style.display = "none";
-    $('.mon-carrousel').slick('unslick'); // On réinitialise pour la prochaine fois
-  }
+  });
 </script>
