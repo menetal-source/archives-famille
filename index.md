@@ -1,13 +1,17 @@
 ---
-layout: home
-title: "Bienvenue sur les Archives de la Famille"
+layout: page
+title: "Archives de la Famille"
+permalink: /
 ---
 
-Voici notre premier document numérisé :
+## Bienvenue sur notre portail d'archives
+
+Voici la pièce maîtresse de notre collection actuelle :
 
 ### Portrait de Constantin Lannoo
 ![Portrait de Constantin]({{ site.baseurl }}/assets/images/lannoo-constantin.png)
 
 ---
 
-### Tous les documents
+### Liste des fiches détaillées
+* [Accéder à la fiche de Constantin Lannoo]({{ site.baseurl }}/2026/02/01/lannoo-constantin.html)
