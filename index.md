@@ -69,10 +69,12 @@ author_profile: false
   </ul>
 </div>
 
-<div style="text-align: center;">
-  <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
-  <div style="max-width: 700px; margin: 30px auto; color: #2e4a62; font-family: sans-serif; line-height: 1.6; padding: 0 20px;">
-    <strong>Bienvenue sur mon site d'archives familiales.</strong><br>
-    Ce projet est un portail documentaire d'archives familiales réalisé dans le cadre de ma formation (Licence documentaire).
-  </div>
+<div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.8; text-align: justify;">
+
+  <h2 style="font-family: 'Apple Chancery', cursive; text-align: center;">Présentation du projet</h2>
+
+  <p>Réalisé dans le cadre d'une <strong>Licence professionnelle en documentation</strong>, ce site n'est pas seulement une galerie de souvenirs : c'est un outil de gestion documentaire structuré. Il utilise des technologies modernes comme <strong>Jekyll</strong> et des métadonnées en <strong>YAML</strong> pour garantir que ces archives restent accessibles, organisées et pérennes dans le temps.</p>
+
+  <p style="text-align: center; font-style: italic; margin-top: 20px;">Explorez nos collections par ville ou par famille via le menu ci-dessus pour plonger dans mon patrimoine.</p>
+
 </div>
