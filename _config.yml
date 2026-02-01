@@ -7,7 +7,7 @@ sidebar:
 ---
 
 title: "Archives Lieneson et Menet"
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: default
 
 url: "https://menetal-source.github.io"
