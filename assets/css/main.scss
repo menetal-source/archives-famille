@@ -1,14 +1,13 @@
 ---
 ---
 
-@import "minimal-mistakes";
+// On enlève l'import qui fait planter le site pour l'instant
+// On garde juste tes couleurs personnalisées
 
-// On force la couleur de fond sur tout le site
 body {
   background-color: #e3f2fd !important;
 }
 
-// On s'assure que les blocs de contenu sont aussi transparents ou bleus
-.page, .sidebar, .masthead, .page__footer {
-  background-color: #e3f2fd !important;
+.page, .sidebar, .masthead, .page__footer, .page__content, .archive, .inner {
+  background-color: transparent !important;
 }
