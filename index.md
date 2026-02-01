@@ -4,9 +4,15 @@ author_profile: false
 ---
 
 <style>
+  /* CETTE LIGNE SUPPRIME LE TITRE EN HAUT À GAUCHE QUI T'ÉNERVE */
+  .masthead { 
+    display: none !important; 
+  }
+
   /* On colore le fond de la page en bleu ciel */
   .page__inner-wrapper {
     background-color: #e3f2fd !important;
+    padding-top: 20px !important;
   }
 
   /* Style du menu horizontal fait maison */
@@ -26,10 +32,23 @@ author_profile: false
     font-weight: bold;
     font-family: sans-serif;
   }
-  .custom-menu a:hover {
-    text-decoration: underline;
-  }
 </style>
+
+<nav class="custom-menu">
+  <a href="/archives-famille/">Accueil</a>
+  <a href="#">Famille Lieneson</a>
+  <a href="#">Famille Menet</a>
+  <a href="#">Collection</a>
+</nav>
+
+<div style="display: flex; align-items: center; justify-content: center; background: white; padding: 20px; border-radius: 15px; border: 1px solid #d0e3f0; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+  <img src="assets/images/blason-gauche.png" style="width: 100px; height: auto; margin-right: 20px;">
+  <div style="text-align: center;">
+    <h1 style="color: #2e4a62; font-family: serif; font-size: 2.2em; margin: 0;">Archives Lieneson & Menet</h1>
+    <p style="font-style: italic; color: #5a7d9a; margin: 5px 0 0 0;">Mémoire et Patrimoine Familial</p>
+  </div>
+  <img src="assets/images/blason-droit.png" style="width: 100px; height: auto; margin-left: 20px;">
+</div>
 
 <nav class="custom-menu">
   <a href="/archives-famille/">Accueil</a>
