@@ -1,9 +1,19 @@
 docs:
-  - title: "Famille Lannoo"
-    children:
-      - title: "Constantin Lannoo"
-        url: /2026/02/01/lannoo-constantin.html
   - title: "Famille Lieneson"
-    url: "#"
+    children:
+      - title: "Histoire"
+        url: /lieneson/histoire/
+      - title: "Documents & Actes"
+        url: /lieneson/documents/
+
   - title: "Famille Menet"
-    url: "#"
+    children:
+      - title: "Histoire"
+        url: /menet/histoire/
+      - title: "Documents & Actes"
+        url: /menet/documents/
+
+  - title: "Collection"
+    children:
+      - title: "Cartes Postales"
+        url: /collection/cartes-postales/
