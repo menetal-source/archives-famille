@@ -90,11 +90,14 @@ author_profile: false
   </div>
 </div>
 
-<script>
+<script type="text/javascript">
+/*<![CDATA[*/
   var index = 1;
-  var slides = document.getElementsByClassName("diapos-container");
-
+  
   function changer(n) {
+    var slides = document.getElementsByClassName("diapos-container");
+    if (!slides || slides.length === 0) return;
+
     // Cache la diapo actuelle
     slides[index-1].style.display = "none";
     
@@ -104,3 +107,10 @@ author_profile: false
     if (index < 1) {index = slides.length}
     
     // Affiche la nouvelle diapo
+    slides[index-1].style.display = "block";
+    
+    // Met à jour le compteur
+    document.getElementById("compteur").innerHTML = index;
+  }
+/*]]>*/
+</script>
