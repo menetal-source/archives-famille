@@ -4,10 +4,6 @@ docs:
       - title: "Constantin Lannoo"
         url: /2026/02/01/lannoo-constantin.html
   - title: "Famille Lieneson"
-    children:
-      - title: "Documents à venir"
-        url: "#"
+    url: "#"
   - title: "Famille Menet"
-    children:
-      - title: "Documents à venir"
-        url: "#"
+    url: "#"
