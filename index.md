@@ -4,25 +4,38 @@ author_profile: false
 ---
 
 <style>
-  /* CETTE LIGNE SUPPRIME LE TITRE EN HAUT À GAUCHE QUI T'ÉNERVE */
-  .masthead { 
-    display: none !important; 
+  /* SUPPRESSION RADICALE DU HAUT DE PAGE DU THÈME */
+  .masthead, .page__footer, .page__title, .breadcrumb {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    visibility: hidden !important;
   }
 
-  /* On colore le fond de la page en bleu ciel */
-  .page__inner-wrapper {
+  /* ON NETTOIE LES BORDURES ET L'ESPACE VIDE */
+  .initial-content {
+    margin-top: 0 !important;
+  }
+  
+  .page {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* FOND DE PAGE BLEU CIEL */
+  body, .page__inner-wrapper {
     background-color: #e3f2fd !important;
-    padding-top: 20px !important;
   }
 
-  /* Style du menu horizontal fait maison */
+  /* MENU MAISON */
   .custom-menu {
     display: flex;
     justify-content: center;
     background-color: #2e4a62;
-    padding: 10px;
+    padding: 12px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     list-style: none;
   }
   .custom-menu a {
@@ -34,6 +47,19 @@ author_profile: false
   }
 </style>
 
+<div style="height: 20px;"></div> <div style="display: flex; align-items: center; justify-content: center; background: white; padding: 25px; border-radius: 15px; border: 1px solid #d0e3f0; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+  
+  <img src="assets/images/blason-gauche.png" style="width: 110px; height: auto; margin-right: 25px;" alt="Blason Lieneson">
+
+  <div style="text-align: center;">
+    <h1 style="color: #2e4a62; font-family: serif; font-size: 2.5em; margin: 0; line-height: 1.2;">Archives Lieneson & Menet</h1>
+    <p style="font-style: italic; color: #5a7d9a; margin: 8px 0 0 0; font-size: 1.2em;">Mémoire et Patrimoine Familial</p>
+  </div>
+
+  <img src="assets/images/blason-droit.png" style="width: 110px; height: auto; margin-left: 25px;" alt="Blason Menet">
+
+</div>
+
 <nav class="custom-menu">
   <a href="/archives-famille/">Accueil</a>
   <a href="#">Famille Lieneson</a>
@@ -41,36 +67,7 @@ author_profile: false
   <a href="#">Collection</a>
 </nav>
 
-<div style="display: flex; align-items: center; justify-content: center; background: white; padding: 20px; border-radius: 15px; border: 1px solid #d0e3f0; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  <img src="assets/images/blason-gauche.png" style="width: 100px; height: auto; margin-right: 20px;">
-  <div style="text-align: center;">
-    <h1 style="color: #2e4a62; font-family: serif; font-size: 2.2em; margin: 0;">Archives Lieneson & Menet</h1>
-    <p style="font-style: italic; color: #5a7d9a; margin: 5px 0 0 0;">Mémoire et Patrimoine Familial</p>
-  </div>
-  <img src="assets/images/blason-droit.png" style="width: 100px; height: auto; margin-left: 20px;">
-</div>
-
-<nav class="custom-menu">
-  <a href="/archives-famille/">Accueil</a>
-  <a href="/archives-famille/">Famille Lieneson</a>
-  <a href="/archives-famille/">Famille Menet</a>
-  <a href="/archives-famille/">Collection</a>
-</nav>
-
-<div style="display: flex; align-items: center; justify-content: center; background: white; padding: 20px; border-radius: 15px; border: 1px solid #d0e3f0; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  
-  <img src="assets/images/blason-gauche.png" style="width: 100px; height: auto; margin-right: 20px;">
-
-  <div style="text-align: center;">
-    <h1 style="color: #2e4a62; font-family: 'Apple Chancery', cursive, serif; font-size: 2.2em; margin: 0;">Archives Lieneson & Menet</h1>
-    <p style="font-style: italic; color: #5a7d9a; margin: 5px 0 0 0;">Mémoire et Patrimoine Familial</p>
-  </div>
-
-  <img src="assets/images/blason-droit.png" style="width: 100px; height: auto; margin-left: 20px;">
-
-</div>
-
 <div style="text-align: center; margin-top: 30px;">
-  <h2 style="color: #2e4a62;">Portrait de Constantin Lannoo</h2>
-  <img src="assets/images/lannoo-constantin.png" style="width: 100%; max-width: 350px; border-radius: 8px; border: 5px solid white; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <h2 style="color: #2e4a62; font-family: serif;">Portrait de Constantin Lannoo</h2>
+  <img src="assets/images/lannoo-constantin.png" style="width: 100%; max-width: 380px; border-radius: 8px; border: 6px solid white; box-shadow: 0 5px 20px rgba(0,0,0,0.15);">
 </div>
