@@ -21,29 +21,29 @@ author_profile: false
 <h1 class="titre-ville">Collection : Reims</h1>
 
 <div class="carrousel-cadre">
-  <div class="diapos-container" style="display:block;"><img src="../../assets/Images/reims-place-1.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-2.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-3.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-4.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-5.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-6.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-7.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-8.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-9.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-10.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-11.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-12.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-13.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-14.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-15.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-16.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-17.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-18.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-19.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-20.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-21.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-22.jpg"></div>
-  <div class="diapos-container"><img src="../../assets/Images/reims-place-23.jpg"></div>
+  <div class="diapos-container" style="display:block;"><img src="../../assets/images/reims-place-1.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-2.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-3.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-4.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-5.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-6.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-7.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-8.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-9.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-10.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-11.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-12.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-13.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-14.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-15.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-16.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-17.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-18.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-19.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-20.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-21.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-22.jpg"></div>
+  <div class="diapos-container"><img src="../../assets/images/reims-place-23.jpg"></div>
 
   <div class="navigation-boutons">
     <button class="btn-nav" onclick="var s=document.getElementsByClassName('diapos-container'); s[window.idx-1].style.display='none'; window.idx--; if(window.idx<1)window.idx=s.length; s[window.idx-1].style.display='block'; document.getElementById('compteur').innerHTML=window.idx;">❮ Précédent</button>
