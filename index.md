@@ -83,7 +83,6 @@ author_profile: false
 
 # Bienvenue sur mon site d'archives
 
-C'est ici que tu colles ton texte de présentation. 
-Ce site regroupe les documents et photographies de notre histoire familiale...
+Ce projet est un portail documentaire d'archives familiales réalisé dans le cadre de ma formation (Licence professionnelle documentation). Il utilise Jekyll et des métadonnées structurées en YAML pour assurer l'interopérabilité des données.
 
 </div>
