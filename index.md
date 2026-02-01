@@ -76,7 +76,7 @@ author_profile: false
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <img src="assets/images/constantin-1.jpg" style="max-width: 600px; height: auto; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+  <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; height: auto; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
 </div>
 
 <div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.6;">
