@@ -3,30 +3,6 @@ layout: single
 author_profile: false
 ---
 
-<style>
-  ---
-layout: single
-author_profile: false
-# Ne mettez pas de ligne "title:" ici pour éviter le gros titre
----
-
-<div style="text-align: center; margin-top: 20px;">
-  <img src="assets/images/VOTRE-NOUVELLE-PHOTO.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
-</div>
-
-<div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; line-height: 1.6;">
-  # Présentation des Archives
-  Bienvenue sur ce site... (votre texte de présentation)
-  
-</div>
-
-<hr style="border: 1px solid #e3f2fd; margin: 40px 0;">
-
-<div style="text-align: center;">
-  <h2 style="color: #2e4a62; font-family: 'Apple Chancery', cursive;">Explorer les collections</h2>
-  <a href="collection/lille/" class="btn-nav" style="display: inline-block; margin: 10px; text-decoration: none; padding: 15px 30px; background: #2e4a62; color: white; border-radius: 8px; font-weight: bold;">Ville de Lille</a>
-  <a href="collection/reims/" class="btn-nav" style="display: inline-block; margin: 10px; text-decoration: none; padding: 15px 30px; background: #2e4a62; color: white; border-radius: 8px; font-weight: bold;">Ville de Reims</a>
-</div>
   /* 1. SUPPRESSION DES PARASITES */
   .skip-links, .masthead, #site-nav, .page__footer, .page__title, .breadcrumb {
     display: none !important;
@@ -139,7 +115,48 @@ author_profile: false
   </ul>
 </div>
 
-<div style="text-align: center; margin-top: 40px; padding-bottom: 50px;">
-  <h2 style="color: #2e4a62; font-family: serif;">Portrait de Constantin Lannoo</h2>
-  <img src="assets/images/lannoo-constantin.png" style="width: 100%; max-width: 420px; border-radius: 8px; border: 10px solid white; box-shadow: 0 5px 25px rgba(0,0,0,0.2);">
+---
+layout: single
+author_profile: false
+---
+
+<style>
+  /* Cette ligne est le secret pour supprimer le titre "Portrait de Constantin" */
+  .page__title { display: none !important; }
+  
+  /* On nettoie aussi les marges inutiles en haut */
+  .page__inner-wrapper { padding-top: 0 !important; }
+  .archive { margin-top: 0 !important; }
+  
+  .bouton-accueil {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background: #2e4a62;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+</style>
+
+<div style="text-align: center; margin-top: 0;">
+  <img src="assets/images/VOTRE-NOUVELLE-PHOTO.jpg" style="max-width: 100%; height: auto; border-radius: 0 0 15px 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+</div>
+
+<div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif;">
+
+  # Bienvenue sur mon site d'archives
+  
+  Ceci est votre texte de présentation que vous aviez dans le fichier README.
+  Vous pouvez raconter ici l'histoire de la collection...
+
+</div>
+
+<div style="text-align: center; margin-bottom: 50px;">
+  <hr style="border: 1px solid #e3f2fd; width: 50%; margin: 30px auto;">
+  <h2 style="color: #2e4a62; font-family: 'Apple Chancery', cursive;">Explorer les collections</h2>
+  
+  <a href="collection/lille/" class="bouton-accueil">Ville de Lille</a>
+  <a href="collection/reims/" class="bouton-accueil">Ville de Reims</a>
 </div>
