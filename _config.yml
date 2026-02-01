@@ -4,14 +4,11 @@ minimal_mistakes_skin: "default"
 baseurl: "/archives-famille"
 url: "https://menetal-source.github.io"
 
-# Cette section est CRUCIALE pour la barre latérale
+# On force le moteur à utiliser le menu à gauche
 defaults:
   - scope:
       path: ""
     values:
       layout: "single"
       sidebar:
-        nav: "docs" # Nom du menu dans _data/navigation.yml
-        author:
-  name: "Famille L&M"
-  bio: "Portail généalogique"
+        nav: "docs" # Ceci pointe vers ton fichier _data/navigation.yml
