@@ -4,17 +4,12 @@ author_profile: false
 ---
 
 <style>
-  /* 1. SUPPRESSION DES ÉLÉMENTS INDÉSIRABLES */
+  /* 1. NETTOYAGE */
   .skip-links, .masthead, .page__footer, .page__title, .breadcrumb { display: none !important; }
   body, .page__inner-wrapper { background-color: #e3f2fd !important; padding: 0 !important; }
 
   /* 2. STYLE DU TITRE ET BLASONS */
-  .mon-grand-titre { 
-    color: #2e4a62 !important; 
-    font-family: cursive, serif !important; 
-    font-size: 3.2em !important; 
-    margin: 0 !important; 
-  }
+  .mon-grand-titre { color: #2e4a62 !important; font-family: cursive, serif !important; font-size: 3.2em !important; margin: 0 !important; }
 
   /* 3. MENU DÉROULANT */
   .menu-container { display: flex; justify-content: center; margin: 25px 0; font-family: sans-serif; position: relative; z-index: 1000; }
@@ -28,6 +23,19 @@ author_profile: false
   }
   .custom-menu li:hover .submenu { display: block !important; }
   .submenu li a { color: white !important; padding: 10px 15px; display: block; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
+
+  /* 4. PIED DE PAGE */
+  .mon-footer {
+    text-align: center;
+    margin: 60px auto 30px auto;
+    padding: 30px 20px;
+    color: #5a7d9a;
+    font-family: sans-serif;
+    font-size: 0.95em;
+    border-top: 1px solid #d0e3f0;
+    max-width: 850px;
+  }
+  .mon-footer strong { color: #2e4a62; }
 </style>
 
 <div style="display: flex; align-items: center; justify-content: center; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 1100px; margin: 20px auto;">
@@ -42,7 +50,6 @@ author_profile: false
 <div class="menu-container">
   <ul class="custom-menu">
     <li><a href="/archives-famille/">ACCUEIL</a></li>
-    
     <li>
       <a href="#">FAMILLE LIENESON ▾</a>
       <ul class="submenu">
@@ -50,7 +57,6 @@ author_profile: false
         <li><a href="#">Documents</a></li>
       </ul>
     </li>
-
     <li>
       <a href="#">FAMILLE MENET ▾</a>
       <ul class="submenu">
@@ -58,7 +64,6 @@ author_profile: false
         <li><a href="#">Documents</a></li>
       </ul>
     </li>
-
     <li>
       <a href="#">COLLECTION ▾</a>
       <ul class="submenu">
@@ -75,14 +80,14 @@ author_profile: false
   <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);" alt="Photo accueil">
 </div>
 
-<div style="max-width: 850px; margin: 0 auto 50px auto; color: #2e4a62; font-family: sans-serif; line-height: 1.8; text-align: justify; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+<div style="max-width: 850px; margin: 0 auto; color: #2e4a62; font-family: sans-serif; line-height: 1.8; text-align: justify; background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
   <h2 style="text-align: center; font-family: cursive; font-size: 2em; margin-top: 0;">Présentation du projet</h2>
-  
   <p>Ce projet est né de la volonté de préserver et de transmettre la mémoire des familles <strong>Lieneson</strong> et <strong>Menet</strong>. À travers ce portail, vous découvrirez une collection de photographies, de documents et d'objets qui retracent plusieurs générations d'histoire.</p>
-
   <p>Réalisé dans le cadre d'une <strong>Licence professionnelle en documentation</strong>, ce site n'est pas seulement une galerie de souvenirs : c'est un outil de gestion documentaire structuré. Il utilise des technologies modernes comme <strong>Jekyll</strong> et des métadonnées en <strong>YAML</strong> pour garantir que ces archives restent accessibles, organisées et pérennes dans le temps.</p>
-
-  <p style="text-align: center; font-style: italic; margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;">
-    Explorez nos collections par ville ou par famille via le menu ci-dessus pour plonger dans notre patrimoine commun.
-  </p>
 </div>
+
+<footer class="mon-footer">
+  <p>© 2026 - <strong>Archives Familiales Lieneson & Menet</strong></p>
+  <p>Site conçu et réalisé par <strong>Alexandra Menet</strong></p>
+  <p style="font-size: 0.85em; margin-top: 10px;">Projet de Licence Professionnelle en Documentation</p>
+</footer>
