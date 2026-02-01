@@ -4,7 +4,7 @@ minimal_mistakes_skin: "default"
 url: "https://menetal-source.github.io"
 baseurl: "/archives-famille"
 
-# On s'assure que le menu 'main' est bien pris en compte
+# On force le chargement du menu
 site_navigation: main
 
 plugins:
