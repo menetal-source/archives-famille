@@ -4,10 +4,10 @@ minimal_mistakes_skin: "default"
 url: "https://menetal-source.github.io"
 baseurl: "/archives-famille"
 
-# Cette ligne est la clé pour le menu du haut
-header:
-  overlay_filter: 0.5
-navigation: true
+# On vide les titres automatiques pour ne laisser que ton travail
+title: ""
+description: ""
+logo: 
 
 plugins:
   - jekyll-remote-theme
@@ -19,4 +19,6 @@ defaults:
       type: pages
     values:
       layout: "single"
-      author_profile: true
+      author_profile: false
+      # On force la suppression du titre de page automatique
+      title: ""
