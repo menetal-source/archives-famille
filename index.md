@@ -4,6 +4,29 @@ author_profile: false
 ---
 
 <style>
+  ---
+layout: single
+author_profile: false
+# Ne mettez pas de ligne "title:" ici pour éviter le gros titre
+---
+
+<div style="text-align: center; margin-top: 20px;">
+  <img src="assets/images/VOTRE-NOUVELLE-PHOTO.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+</div>
+
+<div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; line-height: 1.6;">
+  # Présentation des Archives
+  Bienvenue sur ce site... (votre texte de présentation)
+  
+</div>
+
+<hr style="border: 1px solid #e3f2fd; margin: 40px 0;">
+
+<div style="text-align: center;">
+  <h2 style="color: #2e4a62; font-family: 'Apple Chancery', cursive;">Explorer les collections</h2>
+  <a href="collection/lille/" class="btn-nav" style="display: inline-block; margin: 10px; text-decoration: none; padding: 15px 30px; background: #2e4a62; color: white; border-radius: 8px; font-weight: bold;">Ville de Lille</a>
+  <a href="collection/reims/" class="btn-nav" style="display: inline-block; margin: 10px; text-decoration: none; padding: 15px 30px; background: #2e4a62; color: white; border-radius: 8px; font-weight: bold;">Ville de Reims</a>
+</div>
   /* 1. SUPPRESSION DES PARASITES */
   .skip-links, .masthead, #site-nav, .page__footer, .page__title, .breadcrumb {
     display: none !important;
