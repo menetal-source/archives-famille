@@ -33,9 +33,9 @@ author_profile: false
 
 <nav class="custom-menu">
   <a href="/archives-famille/">Accueil</a>
-  <a href="#">Famille Lieneson</a>
-  <a href="#">Famille Menet</a>
-  <a href="#">Collection</a>
+  <a href="/archives-famille/">Famille Lieneson</a>
+  <a href="/archives-famille/">Famille Menet</a>
+  <a href="/archives-famille/">Collection</a>
 </nav>
 
 <div style="display: flex; align-items: center; justify-content: center; background: white; padding: 20px; border-radius: 15px; border: 1px solid #d0e3f0; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
