@@ -15,20 +15,23 @@ author_profile: false
 
   .mon-grand-titre {
     color: #2e4a62 !important;
-    /* On utilise Playfair Display, une police magnifique pour les archives */
-    font-family: 'Playfair Display', serif !important;
-    font-size: 3em !important;
-    font-weight: 700 !important;
+    /* On utilise les plus belles polices calligraphiées du Mac */
+    font-family: "Apple Chancery", "Savoye LET", "Dancing Script", cursive !important;
+    font-size: 3.5em !important; /* On l'agrandit car ces polices sont souvent plus fines */
+    font-weight: 500 !important;
     margin: 0 !important;
-    font-variant: small-caps; /* Donne un air encore plus noble */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05); /* Un léger relief */
+  }
   }
 
   .mon-sous-titre {
-    font-family: 'Playfair Display', serif !important;
+    font-family: "Apple Chancery", serif !important;
     font-style: italic !important;
     color: #5a7d9a !important;
-    margin: 8px 0 0 0 !important;
-    font-size: 1.3em !important;
+    margin: 5px 0 0 0 !important;
+    font-size: 1.4em !important;
+  }
+</style>
   }
 
   /* 3. FOND BLEU ET NETTOYAGE */
