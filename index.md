@@ -4,33 +4,17 @@ author_profile: false
 ---
 
 <style>
-  /* On cache les éléments inutiles du thème */
+  /* SUPPRESSION DU TITRE ET MISE EN PAGE */
   .page__title, .masthead, .page__footer, .breadcrumb { display: none !important; }
   body, .page__inner-wrapper { background-color: #e3f2fd !important; }
 
-  /* Structure du menu */
+  /* MENU */
   .menu-container { display: flex; justify-content: center; margin: 20px 0; font-family: sans-serif; }
-  
-  .custom-menu { 
-    display: flex; 
-    list-style: none; 
-    background: #2e4a62; 
-    padding: 0; 
-    margin: 0; 
-    border-radius: 8px; 
-  }
-
+  .custom-menu { display: flex; list-style: none; background: #2e4a62; padding: 0; margin: 0; border-radius: 8px; }
   .custom-menu > li { position: relative; }
+  .custom-menu > li > a { color: white !important; text-decoration: none; padding: 15px 25px; display: block; font-weight: bold; }
 
-  .custom-menu > li > a { 
-    color: white !important; 
-    text-decoration: none; 
-    padding: 15px 25px; 
-    display: block; 
-    font-weight: bold; 
-  }
-
-  /* SOUS-MENU (Caché par défaut) */
+  /* SOUS-MENU */
   .submenu { 
     display: none; 
     position: absolute; 
@@ -45,19 +29,9 @@ author_profile: false
     border-radius: 0 0 8px 8px;
   }
 
-  /* AFFICHAGE AU SURVOL (Le secret est ici) */
-  .custom-menu li:hover .submenu { 
-    display: block !important; 
-  }
-
-  .submenu li a { 
-    color: white !important; 
-    padding: 10px 15px; 
-    display: block; 
-    text-decoration: none; 
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-  }
-
+  /* SURVOL */
+  .custom-menu li:hover .submenu { display: block !important; }
+  .submenu li a { color: white !important; padding: 10px 15px; display: block; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
   .submenu li:hover { background: #2e4a62; }
 </style>
 
@@ -89,7 +63,8 @@ author_profile: false
 
 <div style="text-align: center;">
   <img src="assets/images/coupain-joly.jpg" style="max-width: 600px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
-  <p style="max-width: 700px; margin: 30px auto; color: #2e4a62; font-family: sans-serif; line-height: 1.6;">
-    Bienvenue sur mon site d'archives familiales.
-  </p>
+  <div style="max-width: 700px; margin: 30px auto; color: #2e4a62; font-family: sans-serif; line-height: 1.6; padding: 0 20px;">
+    <strong>Bienvenue sur mon site d'archives familiales.</strong><br>
+    Ce projet est un portail documentaire d'archives familiales réalisé dans le cadre de ma formation.
+  </div>
 </div>
