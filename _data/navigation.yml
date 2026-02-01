@@ -1,18 +1,19 @@
+main:
+  - title: "Accueil"
+    url: /
 docs:
   - title: "Famille Lieneson"
     children:
       - title: "Histoire"
         url: /lieneson/histoire/
-      - title: "Documents & Actes"
+      - title: "Documents"
         url: /lieneson/documents/
-
   - title: "Famille Menet"
     children:
       - title: "Histoire"
         url: /menet/histoire/
-      - title: "Documents & Actes"
+      - title: "Documents"
         url: /menet/documents/
-
   - title: "Collection"
     children:
       - title: "Cartes Postales"
