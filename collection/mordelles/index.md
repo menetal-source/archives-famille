@@ -26,7 +26,6 @@ author_profile: false
   <div class="diapos-container"><img src="../../assets/images/mordelles-place-3.jpg"></div>
   <div class="diapos-container"><img src="../../assets/images/mordelles-place-4.jpg"></div>
   <div class="diapos-container"><img src="../../assets/images/mordelles-place-5.jpg"></div>
-
   
   <div class="navigation-boutons">
     <button class="btn-nav" onclick="var s=document.getElementsByClassName('diapos-container'); s[window.idx-1].style.display='none'; window.idx--; if(window.idx<1)window.idx=s.length; s[window.idx-1].style.display='block'; document.getElementById('compteur').innerHTML=window.idx;">❮ Précédent</button>
