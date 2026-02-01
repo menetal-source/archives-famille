@@ -27,26 +27,24 @@ author_profile: false
   }
   .custom-menu li:hover .submenu { display: block !important; }
   .submenu li a { color: white !important; padding: 10px 15px; display: block; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .submenu li:hover { background: #2e4a62; }
 </style>
 
 <div style="height: 20px;"></div>
 
 <div style="display: flex; align-items: center; justify-content: center; background: white; padding: 50px; border-radius: 20px; border: 1px solid #d0e3f0; box-shadow: 0 8px 25px rgba(0,0,0,0.1); max-width: 1200px; margin: 0 auto;">
-  
-  <img src="assets/images/blason-gauche.png" style="width: 250px; height: auto; margin-right: 50px;" alt="[Blason Gauche]">
-  
+  <img src="assets/images/blason-gauche.png" style="width: 250px; height: auto; margin-right: 50px;" alt="[Blason Lieneson]">
   <div style="text-align: center;">
     <h1 class="mon-grand-titre">Archives Lieneson & Menet</h1>
     <p style="font-family: serif; font-style: italic; color: #5a7d9a; font-size: 1.6em; margin: 15px 0 0 0;">Mémoire et Patrimoine Familial</p>
   </div>
-  
-  <img src="assets/images/blason-droit.png" style="width: 250px; height: auto; margin-left: 50px;" alt="[Blason Droit]">
-  
+  <img src="assets/images/blason-droit.png" style="width: 250px; height: auto; margin-left: 50px;" alt="[Blason Menet]">
 </div>
 
 <div class="menu-container">
   <ul class="custom-menu">
     <li><a href="/archives-famille/">ACCUEIL</a></li>
+    
     <li>
       <a href="#">FAMILLE LIENESON ▾</a>
       <ul class="submenu">
@@ -54,24 +52,11 @@ author_profile: false
         <li><a href="#">Documents</a></li>
       </ul>
     </li>
-    <li><a href="#">FAMILLE MENET</a></li>
+
     <li>
-      <a href="#">COLLECTION ▾</a>
+      <a href="#">FAMILLE MENET ▾</a>
       <ul class="submenu">
-        <li><a href="/archives-famille/collection/lille/">Lille</a></li>
-        <li><a href="/archives-famille/collection/reims/">Reims</a></li>
-        <li><a href="/archives-famille/collection/mordelles/">Mordelles</a></li>
+        <li><a href="/archives-famille/famille/menet/">Galerie</a></li>
+        <li><a href="#">Documents</a></li>
       </ul>
     </li>
-  </ul>
-</div>
-
-<div style="text-align: center;">
-  <img src="assets/images/coupain-joly.jpg" style="max-width: 700px; height: auto; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);" alt="[Photo d'accueil]">
-</div>
-
-<div style="max-width: 800px; margin: 40px auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.8; text-align: justify;">
-  <h2 style="font-family: 'Apple Chancery', cursive; text-align: center; font-size: 2.2em;">Présentation du projet</h2>
-  <p>Ce projet est né de la volonté de préserver et de transmettre la mémoire des familles <strong>Lieneson</strong> et <strong>Menet</strong>. À travers ce portail, vous découvrirez une collection de photographies, de documents et d'objets qui retracent plusieurs générations d'histoire.</p>
-  <p>Réalisé dans le cadre d'une <strong>Licence professionnelle en documentation</strong>, ce site n'est pas seulement une galerie de souvenirs : c'est un outil de gestion documentaire structuré. Il utilise des technologies modernes comme <strong>Jekyll</strong> et des métadonnées en <strong>YAML</strong> pour garantir que ces archives restent accessibles, organisées et pérennes dans le temps.</p>
-</div>
