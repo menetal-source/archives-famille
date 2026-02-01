@@ -6,17 +6,14 @@ sidebar:
 ---
 
 <style>
-  /* On force le fond bleu ciel partout proprement */
-  body, .masthead, .page, .page__inner-wrapper, #main, .sidebar {
+  /* On force l'alignement et les couleurs */
+  body, .masthead, .page, .page__inner-wrapper, #main {
     background-color: #e3f2fd !important;
   }
-  /* On cache les liens d'évitement "Skip to..." qui polluent le haut */
-  .skip-links {
-    display: none !important;
-  }
-  /* On s'assure que la sidebar est bien placée */
+  /* On s'assure que la colonne de gauche (sidebar) est visible */
   .sidebar {
-    background: transparent !important;
+    background-color: transparent !important;
+    display: block !important;
   }
 </style>
 
