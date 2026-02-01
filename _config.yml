@@ -1,7 +1,8 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
+
 url: "https://menetal-source.github.io"
-baseurl: "/archives-famille"
+baseurl: "" # On le laisse vide pour tester
 
 plugins:
   - jekyll-remote-theme
