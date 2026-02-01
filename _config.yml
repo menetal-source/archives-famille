@@ -2,9 +2,8 @@ title: "Archives Lieneson et Menet"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
 
-# Vérifie bien que le nom après le slash est EXACTEMENT le nom de ton dépôt GitHub
 url: "https://menetal-source.github.io"
-baseurl: "/archives-famille"
+baseurl: "/archives-famille" # <--- Vérifie bien que c'est le nom exact de ton dépôt
 
 plugins:
   - jekyll-remote-theme
