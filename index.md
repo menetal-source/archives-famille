@@ -4,7 +4,7 @@ author_profile: false
 ---
 
 <style>
-  /* 1. SUPPRESSION DES BLOCAGES */
+  /* 1. SUPPRESSION DES ÉLÉMENTS DU THÈME */
   .skip-links, .page__title, .masthead, .page__footer, .breadcrumb { display: none !important; }
   body, .page__inner-wrapper { background-color: #e3f2fd !important; padding: 0 !important; margin: 0 !important; }
 
@@ -16,13 +16,29 @@ author_profile: false
     margin: 0 !important; 
   }
 
-  /* 3. MENU DÉROULANT (FORCÉ) */
+  /* 3. LE MENU DÉROULANT */
   .menu-container { display: flex; justify-content: center; margin: 30px 0; font-family: sans-serif; position: relative; z-index: 1000; }
-  .custom-menu { display: flex; list-style: none !important; background: #2e4a62; padding: 0; margin: 0; border-radius: 8px; }
+  
+  .custom-menu { 
+    display: flex; 
+    list-style: none !important; 
+    background: #2e4a62; 
+    padding: 0; 
+    margin: 0; 
+    border-radius: 8px; 
+  }
+  
   .custom-menu > li { position: relative; }
-  .custom-menu > li > a { color: white !important; text-decoration: none; padding: 15px 25px; display: block; font-weight: bold; }
+  
+  .custom-menu > li > a { 
+    color: white !important; 
+    text-decoration: none; 
+    padding: 15px 25px; 
+    display: block; 
+    font-weight: bold; 
+  }
 
-  /* Sous-menus */
+  /* Sous-menus (cachés par défaut) */
   .submenu { 
     display: none; 
     position: absolute; 
@@ -31,13 +47,14 @@ author_profile: false
     background: #3e5f7a; 
     min-width: 200px; 
     list-style: none !important; 
-    padding: 0; margin: 0; 
+    padding: 0; 
+    margin: 0; 
     z-index: 9999; 
     border-radius: 0 0 8px 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   }
 
-  /* L'effet de survol magique */
+  /* Affichage au survol */
   .custom-menu li:hover .submenu { display: block !important; }
   
   .submenu li a { 
@@ -47,6 +64,7 @@ author_profile: false
     text-decoration: none; 
     border-bottom: 1px solid rgba(255,255,255,0.1); 
   }
+  
   .submenu li:hover { background: #2e4a62; }
 </style>
 
@@ -86,18 +104,4 @@ author_profile: false
       <ul class="submenu">
         <li><a href="/archives-famille/collection/lille/">Lille</a></li>
         <li><a href="/archives-famille/collection/reims/">Reims</a></li>
-        <li><a href="/archives-famille/collection/mordelles/">Mordelles</a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
-
-<div style="text-align: center;">
-  <img src="assets/images/coupain-joly.jpg" style="max-width: 650px; height: auto; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 30px;">
-  
-  <div style="max-width: 800px; margin: 0 auto; padding: 0 20px; color: #2e4a62; font-family: sans-serif; line-height: 1.8; text-align: justify;">
-    <h2 style="font-family: 'Apple Chancery', cursive; text-align: center; font-size: 2em;">Présentation du projet</h2>
-    <p>Ce projet est né de la volonté de préserver et de transmettre la mémoire des familles <strong>Lieneson</strong> et <strong>Menet</strong>. À travers ce portail, vous découvrirez une collection de photographies, de documents et d'objets qui retracent plusieurs générations d'histoire.</p>
-    <p>Réalisé dans le cadre d'une <strong>Licence professionnelle en documentation</strong>, ce site n'est pas seulement une galerie de souvenirs : c'est un outil de gestion documentaire structuré. Il utilise des technologies modernes comme <strong>Jekyll</strong> et des métadonnées en <strong>YAML</strong> pour garantir que ces archives restent accessibles, organisées et pérennes dans le temps.</p>
-  </div>
-</div>
+        <li>
