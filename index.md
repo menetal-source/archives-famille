@@ -1,8 +1,16 @@
 ---
-layout: page
+layout: single
 title: "Archives Lieneson et Menet"
 permalink: /
+author_profile: true
+sidebar:
+  nav: "docs"
 ---
+
+Bienvenue sur le portail des archives. Utilisez le menu à gauche pour naviguer dans les dossiers de la famille.
+
+### Portrait de Constantin Lannoo
+![Portrait de Constantin]({{ site.baseurl }}/assets/images/lannoo-constantin.png)
 
 ## 📂 Dossiers de Familles
 Cliquez sur un dossier pour voir les documents associés :
