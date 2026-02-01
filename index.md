@@ -6,16 +6,16 @@ sidebar:
   nav: "docs"
 ---
 
-<div style="text-align: center;">
-  <img src="/archives-famille/assets/images/blason-gauche.png" style="width: 100px; display: inline-block; vertical-align: middle;">
-  
-  <h1 style="display: inline-block; vertical-align: middle; margin: 0 20px; color: #2e4a62; font-size: 2em;">
+<center>
+  <img src="{{ '/assets/images/blason-gauche.png' | relative_url }}" width="120" style="display: inline; vertical-align: middle;">
+  <span style="font-size: 2.5em; font-family: serif; font-weight: bold; color: #2e4a62; margin: 0 20px; vertical-align: middle;">
     ARCHIVES<br>LIENESON & MENET
-  </h1>
+  </span>
+  <img src="{{ '/assets/images/blason-droit.png' | relative_url }}" width="120" style="display: inline; vertical-align: middle;">
+</center>
 
-  <img src="/archives-famille/assets/images/blason-droit.png" style="width: 100px; display: inline-block; vertical-align: middle;">
-</div>
+---
 
-<hr>
+Utilisez le menu à gauche pour naviguer dans les dossiers de la famille.
 
-<p style="text-align: center;">Utilisez le menu à gauche pour naviguer.</p>
+![Constantin]({{ '/assets/images/lannoo-constantin.png' | relative_url }})
