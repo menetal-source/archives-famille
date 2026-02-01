@@ -14,7 +14,9 @@ author_profile: false
   .titre-ville { color: #2e4a62 !important; font-family: "Apple Chancery", cursive !important; font-size: 3.5em !important; text-align: center; margin: 20px 0 !important; }
 </style>
 
-<div style="text-align: center; margin-top: 20px;"><a href="/archives-famille/" style="text-decoration: none; color: #2e4a62; font-weight: bold;">← Accueil</a></div>
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://menetal-source.github.io/archives-famille/" class="btn-nav" style="text-decoration: none;">← Retour à l'accueil</a>
+</div>
 
 <h1 class="titre-ville">Collection : Lille</h1>
 
